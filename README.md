@@ -1,0 +1,2 @@
+# flauschcraft
+GitHub Pages

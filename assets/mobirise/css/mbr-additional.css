@@ -1112,72 +1112,89 @@ section.lazy-placeholder:after {
 .cid-rL7gEtUhBZ .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rL7g0hTuNb {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-rL7kpGGeIP {
   background-image: url("../../../assets/images/ines-alvarez-fdez-l-n7banlc5y-unsplash.jpg");
 }
-.cid-rL0UaoChhP {
-  padding-top: 90px;
-  padding-bottom: 0px;
-  background-color: #25aab2;
+.cid-rL7kpGGeIP h1 {
+  color: #616161;
 }
-.cid-rL0UaoChhP .mbr-section-subtitle {
+.cid-rL7kpGGeIP h2,
+.cid-rL7kpGGeIP h3,
+.cid-rL7kpGGeIP p {
   color: #767676;
 }
-.cid-rL0UaoChhP .btn {
-  margin: 0 0 .5rem 0;
+.cid-rL7kpGGeIP .mbr-section-subtitle {
+  font-style: italic;
 }
-.cid-rL0UaoChhP .content-row {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-.cid-rL0UaoChhP H2 {
-  color: #ffffff;
-}
-.cid-rL0JZZju0b {
+.cid-rL7l80GH9S {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #25aab2;
 }
-.cid-rL0JZZju0b h4 {
+.cid-rL7l80GH9S h2 {
+  text-align: left;
+}
+.cid-rL7l80GH9S h4 {
   text-align: left;
   font-weight: 500;
 }
-.cid-rL0JZZju0b p {
+.cid-rL7l80GH9S p {
   color: #767676;
   text-align: left;
-  margin-bottom: 0;
 }
-.cid-rL0JZZju0b .card-img {
-  text-align: left;
-  -webkit-flex: 1 0 auto;
-  flex: 1 0 auto;
+.cid-rL7l80GH9S .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rL7l80GH9S .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rL7l80GH9S .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rL7l80GH9S .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rL7l80GH9S .card-img {
+  padding-right: 2rem;
   width: auto;
 }
-.cid-rL0JZZju0b .card-img span {
+.cid-rL7l80GH9S .card-img span {
   font-size: 72px;
-  color: #ff3366;
+  color: #707070;
 }
-.cid-rL0JZZju0b .card-box {
-  padding-left: 1rem;
-  word-break: break-word;
-  width: 100%;
+@media (min-width: 992px) {
+  .cid-rL7l80GH9S .mbr-figure {
+    padding-right: 4rem;
+  }
 }
 @media (max-width: 991px) {
-  .cid-rL0JZZju0b .card-img {
-    text-align: left;
-    padding-bottom: 0.75rem;
-  }
-  .cid-rL0JZZju0b .card-box {
-    padding-left: 0;
+  .cid-rL7l80GH9S .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
-.cid-rL0JZZju0b .card-title,
-.cid-rL0JZZju0b .card-img {
+@media (max-width: 300px) {
+  .cid-rL7l80GH9S .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rL7l80GH9S H4 {
   color: #ffffff;
 }
-.cid-rL0JZZju0b P {
+.cid-rL7l80GH9S P {
+  color: #ffffff;
+}
+.cid-rL7l80GH9S H2 {
   color: #ffffff;
 }
 .cid-rL0WyfLvqd {
@@ -1197,6 +1214,7 @@ section.lazy-placeholder:after {
   border-radius: 50%;
   border: 2px solid #efefef;
   padding-bottom: 0;
+  color: #767676;
 }
 @media (min-width: 768px) {
   .cid-rL0WyfLvqd .separline .step-wrapper {
@@ -1227,6 +1245,15 @@ section.lazy-placeholder:after {
   .cid-rL0WyfLvqd .card:not(.last-child) {
     padding-bottom: 1.5rem;
   }
+}
+.cid-rL0WyfLvqd .mbr-section-title {
+  color: #767676;
+}
+.cid-rL0WyfLvqd .mbr-step-title {
+  color: #767676;
+}
+.cid-rL0WyfLvqd .mbr-step-text {
+  color: #767676;
 }
 .cid-rL064yH0Nm {
   padding-top: 90px;
@@ -1269,6 +1296,15 @@ section.lazy-placeholder:after {
     padding-bottom: 2rem;
   }
 }
+.cid-rL03G0UswM .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rL03G0UswM H2 {
+  color: #767676;
+}
+.cid-rL03G0UswM .card-title {
+  color: #767676;
+}
 .cid-rL0vPiMGsd {
   padding-top: 0px;
   padding-bottom: 90px;
@@ -1302,6 +1338,9 @@ section.lazy-placeholder:after {
   .cid-rL0vPiMGsd .card:not(.last-child) {
     padding-bottom: 2rem;
   }
+}
+.cid-rL0vPiMGsd .card-title {
+  color: #767676;
 }
 .cid-rL0pxys17J {
   padding-top: 90px;
@@ -1379,6 +1418,15 @@ section.lazy-placeholder:after {
   .cid-rL0pyv35J6 .card:not(.last-child) {
     padding-bottom: 2rem;
   }
+}
+.cid-rL0pyv35J6 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rL0pyv35J6 H2 {
+  color: #767676;
+}
+.cid-rL0pyv35J6 .card-title {
+  color: #767676;
 }
 .cid-rL7haQpVhv {
   padding-top: 90px;

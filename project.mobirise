@@ -24,7 +24,7 @@
         "display4Font": "Indie Flower",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
@@ -95,7 +95,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "screenshot": "screenshot.png",
     "lazyLoad": true,
-    "cssOptimize": true,
+    "cssOptimize": false,
     "lazyType": "nothing",
     "PWA": {
       "enabled": true,

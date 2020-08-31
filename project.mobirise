@@ -68,9 +68,9 @@
       }
     ],
     "uniqCompNum": 112,
-    "versionPublish": "4.11.6",
+    "versionPublish": "4.12.4",
     "favicon": false,
-    "noImageResize": true,
+    "noImageResize": null,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -95,12 +95,13 @@
     "PWA": {
       "enabled": true,
       "name": "FlauschCraft",
-      "icon": "@PROJECT_PATH@/assets/images/flauschcraft-logo-black-512x512.png",
+      "icon": "@ADDONS_PATH@/pwa-builder/assets/icons/512x512.png",
       "themeColor": "#25aab2"
     },
     "pwa-switcher": true,
     "google-analytics": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-46327270-7\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-46327270-7');\n</script>\n",
-    "gdpr": false
+    "gdpr": false,
+    "imageResize": false
   },
   "pages": {
     "index.html": {
@@ -610,7 +611,7 @@
         },
         {
           "_params": {
-            "token": "33618347014.727bfe1.dda51b885a6d45bb8501a78135ee1b70",
+            "account": "mobirise",
             "showTitle": true,
             "layoutGridRadio": false,
             "imagesPerRowGrid": 4,
